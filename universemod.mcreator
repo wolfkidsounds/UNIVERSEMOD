@@ -49,9 +49,9 @@
   "workspaceSettings": {
     "modid": "universemod",
     "modName": "UniverseMod",
-    "version": "1.0.0",
-    "author": "Eric Witzel, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "a1.1",
+    "description": "A Custom Mod for the Universe Modpack",
+    "author": "WOLFKID",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -59,6 +59,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
+    "credits": "This mod is created by Eric Witzel",
     "modElementsPackage": "net.universemod",
     "lockBaseModFiles": false
   },
