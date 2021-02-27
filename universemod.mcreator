@@ -1,0 +1,66 @@
+{
+  "id_map": {
+    "DIMENSION": 1
+  },
+  "mod_elements": [
+    {
+      "name": "UNIVERSEMOD",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreNickel",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "OreSilver",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "OreZinc",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.orenickel.name": "Nickel Ore",
+      "tile.orezinc.name": "Zinc Ore",
+      "itemGroup.tabuniversemod": "UNIVERSEMOD",
+      "tile.oresilver.name": "Silver Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "universemod",
+    "modName": "UniverseMod",
+    "version": "1.0.0",
+    "author": "Eric Witzel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.universemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

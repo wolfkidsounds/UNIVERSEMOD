@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "universemod:blocks/ore_nickel_stone",
+    "up": "universemod:blocks/ore_nickel_stone",
+    "north": "universemod:blocks/ore_nickel_stone",
+    "east": "universemod:blocks/ore_nickel_stone",
+    "south": "universemod:blocks/ore_nickel_stone",
+    "west": "universemod:blocks/ore_nickel_stone",
+    "particle": "universemod:blocks/ore_nickel_stone"
+  }
+}
