@@ -4,8 +4,8 @@
   "definition": {
     "name": "UNIVERSEMOD",
     "icon": {
-      "value": "Blocks.FIRE"
+      "value": "CUSTOM:UniverseDust"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

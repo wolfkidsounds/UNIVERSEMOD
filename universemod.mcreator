@@ -34,6 +34,30 @@
       "compiles": true,
       "locked_code": true,
       "ids": {}
+    },
+    {
+      "name": "UniverseCrystal",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UniverseDust",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UniverseOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -42,7 +66,10 @@
     "en_us": {
       "tile.orenickel.name": "Nickel Ore",
       "tile.orezinc.name": "Zinc Ore",
+      "tile.universeore.name": "Universe Ore",
+      "item.universecrystal.name": "Universe Crystal",
       "itemGroup.tabuniversemod": "UNIVERSEMOD",
+      "item.universedust.name": "Universe Dust",
       "tile.oresilver.name": "Silver Ore"
     }
   },

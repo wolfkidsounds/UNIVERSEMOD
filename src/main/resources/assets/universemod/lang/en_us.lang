@@ -1,4 +1,7 @@
 tile.orenickel.name=Nickel Ore
 tile.orezinc.name=Zinc Ore
+tile.universeore.name=Universe Ore
+item.universecrystal.name=Universe Crystal
 itemGroup.tabuniversemod=UNIVERSEMOD
+item.universedust.name=Universe Dust
 tile.oresilver.name=Silver Ore
