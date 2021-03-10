@@ -58,19 +58,144 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ShowAreasRightClickedInAir",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShowAreas",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClaimAreasRightClickedInAir",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClaimAreas",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AreaAddFriendRightClickedInAir",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AreaAddFriend",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AreaRemoveFriendRightClickedInAir",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AreaRemoveFriend",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AreaMyAreasRightClickedInAir",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AreaMyAreas",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.orenickel.name": "Nickel Ore",
       "tile.orezinc.name": "Zinc Ore",
       "tile.universeore.name": "Universe Ore",
+      "item.areamyareas.name": "Claimed Areas",
+      "item.claimareas.name": "Claim Area",
+      "tile.oresilver.name": "Silver Ore",
+      "tile.orenickel.name": "Nickel Ore",
       "item.universecrystal.name": "Universe Crystal",
+      "item.areaaddfriend.name": "Add Friend",
+      "item.arearemovefriend.name": "Remove Friend",
       "itemGroup.tabuniversemod": "UNIVERSEMOD",
       "item.universedust.name": "Universe Dust",
-      "tile.oresilver.name": "Silver Ore"
+      "item.showareas.name": "Show Areas"
     }
   },
   "workspaceSettings": {

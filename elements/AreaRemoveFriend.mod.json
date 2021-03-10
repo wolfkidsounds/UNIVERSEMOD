@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "area_remove_friend",
+    "customModelName": "Normal",
+    "name": "Remove Friend",
+    "creativeTab": {
+      "value": "CUSTOM:UNIVERSEMOD"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Use this item to remove a member from your area."
+    ],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "AreaRemoveFriendRightClickedInAir"
+    }
+  }
+}
