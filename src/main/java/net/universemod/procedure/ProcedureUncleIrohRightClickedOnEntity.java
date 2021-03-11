@@ -29,7 +29,6 @@ public class ProcedureUncleIrohRightClickedOnEntity extends ElementsUniverseMod.
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
 		if (((entity.getEntityData().getDouble("scrolls")) != 1)) {
-			entity.extinguish();
 			if (!entity.world.isRemote && entity.world.getMinecraftServer() != null) {
 				entity.world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
 					@Override
@@ -162,32 +161,19 @@ public class ProcedureUncleIrohRightClickedOnEntity extends ElementsUniverseMod.
 			if (entity instanceof EntityPlayer && !world.isRemote) {
 				((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Good luck. "), (true));
 			}
-			entity.world.removeEntity(entity);
 			entity.getEntityData().setDouble("scrolls", 1);
 		} else {
 			entity.getEntityData().setDouble("randNumber", Math.random());
-			if (((entity.getEntityData().getDouble("randBumber")) == 1)) {
+			if (((entity.getEntityData().getDouble("randNumber")) <= 0.5)) {
 				if (entity instanceof EntityPlayer && !world.isRemote) {
 					((EntityPlayer) entity).sendStatusMessage(new TextComponentString(
-							"What could be better than finding something you've been looking for? Finding something you weren't looking for - and at a great price too!"),
-							(true));
-				}
-			} else if (((entity.getEntityData().getDouble("randBumber")) >= 0.6)) {
-				if (entity instanceof EntityPlayer && !world.isRemote) {
-					((EntityPlayer) entity).sendStatusMessage(new TextComponentString(
-							"In the hardest times, hope is something you give yourself and that is a sign of inner strength."), (true));
-				}
-			} else if (((entity.getEntityData().getDouble("randBumber")) <= 0.2)) {
-				if (entity instanceof EntityPlayer && !world.isRemote) {
-					((EntityPlayer) entity).sendStatusMessage(new TextComponentString(
-							"Sometimes life is like a dark, dark tunnel. You constantly have the feeling that you'll never see a light at the end, but if you keep going nicely, you might get to a nicer place."),
-							(true));
+							"What could be better than finding something you've been looking for? Finding something you weren't looking for."),
+							(false));
 				}
 			} else {
 				if (entity instanceof EntityPlayer && !world.isRemote) {
-					((EntityPlayer) entity).sendStatusMessage(new TextComponentString(
-							"After Ba Sing Se is freed from tyranny, I will first take back my tea store. Then I will play Pai Sho from morning to night - every day."),
-							(true));
+					((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Failure is only the opportunity to start again more wisely."),
+							(false));
 				}
 			}
 		}
