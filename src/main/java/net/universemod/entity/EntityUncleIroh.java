@@ -66,7 +66,7 @@ public class EntityUncleIroh extends ElementsUniverseMod.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			return new RenderLiving(renderManager, new Modeluncle_iroh(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("universemod:textures/uncle_iroh_convert.png");
+					return new ResourceLocation("universemod:textures/uncle_iroh_lotus.png");
 				}
 			};
 		});
