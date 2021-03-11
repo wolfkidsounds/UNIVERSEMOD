@@ -1,0 +1,108 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Uncle Iroh",
+    "mobLabel": "Uncle Iroh",
+    "mobModelTexture": "uncle_iroh.png",
+    "mobModelName": "Biped",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 10.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -5355725,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -7187672,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:UNIVERSEMOD"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10,
+    "movementSpeed": 0.6,
+    "trackingRange": 64,
+    "health": 100,
+    "xpAmount": 100,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.player.breath"
+    },
+    "hurtSound": {
+      "value": "block.cloth.hit"
+    },
+    "deathSound": {
+      "value": "block.anvil.fall"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "VILLAGER_HAPPY"
+    },
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 2,
+    "particleSpawningCondition": "ALWAYS",
+    "onRightClickedOn": {
+      "name": "UncleIrohRightClickedOnEntity"
+    },
+    "hasAI": true,
+    "aiBase": "Villager",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.5</field><next><block type=\"move_indoors\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 5,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

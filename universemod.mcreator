@@ -1,5 +1,6 @@
 {
   "id_map": {
+    "ENTITY": 2,
     "DIMENSION": 1
   },
   "mod_elements": [
@@ -178,16 +179,48 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "UncleIrohRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UncleIroh",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.orezinc.name": "Zinc Ore",
       "tile.universeore.name": "Universe Ore",
+      "tile.orezinc.name": "Zinc Ore",
       "item.areamyareas.name": "Claimed Areas",
       "item.claimareas.name": "Claim Area",
+      "entity.uncleiroh.name": "Uncle Iroh",
       "tile.oresilver.name": "Silver Ore",
       "tile.orenickel.name": "Nickel Ore",
       "item.universecrystal.name": "Universe Crystal",
