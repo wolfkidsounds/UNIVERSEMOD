@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "universemod:blocks/flint_block",
+    "particle": "universemod:blocks/flint_block"
+  }
+}

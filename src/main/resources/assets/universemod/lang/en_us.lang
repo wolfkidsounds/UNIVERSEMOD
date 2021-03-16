@@ -1,5 +1,5 @@
-tile.universeore.name=Universe Ore
 tile.orezinc.name=Zinc Ore
+tile.universeore.name=Universe Ore
 item.areamyareas.name=Claimed Areas
 item.claimareas.name=Claim Area
 entity.uncleiroh.name=Uncle Iroh
@@ -7,6 +7,7 @@ tile.oresilver.name=Silver Ore
 tile.orenickel.name=Nickel Ore
 item.universecrystal.name=Universe Crystal
 item.areaaddfriend.name=Add Friend
+tile.flintblock.name=Flint Block
 item.arearemovefriend.name=Remove Friend
 itemGroup.tabuniversemod=UNIVERSEMOD
 item.universedust.name=Universe Dust

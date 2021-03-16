@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "DIMENSION": 1,
-    "ENTITY": 2
+    "ENTITY": 2,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -210,14 +210,22 @@
         "0": 1,
         "1": 2
       }
+    },
+    {
+      "name": "FlintBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.universeore.name": "Universe Ore",
       "tile.orezinc.name": "Zinc Ore",
+      "tile.universeore.name": "Universe Ore",
       "item.areamyareas.name": "Claimed Areas",
       "item.claimareas.name": "Claim Area",
       "entity.uncleiroh.name": "Uncle Iroh",
@@ -225,6 +233,7 @@
       "tile.orenickel.name": "Nickel Ore",
       "item.universecrystal.name": "Universe Crystal",
       "item.areaaddfriend.name": "Add Friend",
+      "tile.flintblock.name": "Flint Block",
       "item.arearemovefriend.name": "Remove Friend",
       "itemGroup.tabuniversemod": "UNIVERSEMOD",
       "item.universedust.name": "Universe Dust",
